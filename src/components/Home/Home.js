@@ -4,6 +4,7 @@ import Nav from '../Nav/Nav'
 import SloganMaker from '../SloganMaker/SloganMaker'
 import Features from '../Features/Features'
 import FreeProducts from '../FreeProducts/FreeProducts'
+import Footer from '../Footer/Footer'
 
 import './Home.css'
 const Home=()=>{
@@ -13,6 +14,7 @@ const Home=()=>{
         <SloganMaker/>
         <Features/>
         <FreeProducts/>
+        <Footer/>
        </div>
     )
 }
