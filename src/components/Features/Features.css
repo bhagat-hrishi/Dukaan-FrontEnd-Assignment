@@ -1,0 +1,38 @@
+.features{
+    background: rgba(20, 110, 180,0.05);
+    /* opacity: 0.05; */
+    overflow: hidden;
+
+}
+.features__content{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.feature{
+    width: 33%;
+    margin: 3rem 1rem;
+    text-align: center;
+
+}
+.feature__title{
+    color: #1A181E;
+    font-family: 'Galano Grotesque Medium';
+    font-weight:lighter;
+
+}
+.feature__content{
+    color: #4D4D4D;
+    font-family: 'Galano Grotesque Regular';
+}
+
+@media screen and (max-width:480px){
+    .features__content{
+        flex-direction: column;
+    }
+    .feature{
+        width: 80%;
+        text-align: center;
+    }
+}
