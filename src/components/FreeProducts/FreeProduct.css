@@ -1,0 +1,44 @@
+.free-products{
+  background: #fff;
+  margin: 5rem 0;
+  padding: 0;
+  box-sizing: border-box;
+  position: relative;
+  width: 80%;
+  margin: auto;
+
+}
+
+.free-products__title{
+  font-family: 'Galano Grotesque Semibold';
+}
+
+.free-products__products{
+  width: 80vw;
+  margin: auto;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+
+
+
+
+@media screen  and (max-width:1000px){
+  .free-products__title{
+     position: relative;
+     left: 2%;
+  } 
+}
+
+@media screen  and (max-width:700px){
+  .free-products__title{
+     width: 80%;
+     margin: auto;
+     margin-bottom: 1.5rem;
+
+  } 
+}
+

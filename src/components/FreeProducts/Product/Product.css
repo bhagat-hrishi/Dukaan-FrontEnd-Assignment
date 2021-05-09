@@ -1,0 +1,41 @@
+.product{
+    box-sizing: border-box;
+    padding: 0;
+    width: 31%;
+    margin: .5rem;
+    cursor: pointer;
+}
+.product:hover{
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.19);
+}
+.product__img{
+    width: 100%;
+}
+
+.product__title{
+    color: #1A181E;
+    font-family: 'Galano Grotesque Medium';
+    font-weight:lighter;
+
+}
+.product__content{
+    color: #4D4D4D;
+    font-family: 'Galano Grotesque Regular';
+
+}
+
+@media screen  and (max-width:1000px){
+    .product{
+        width: 40%;
+        margin: 1.5rem;
+    } 
+}
+
+@media screen  and (max-width:700px){
+    .product{
+        width: 80%;
+        margin: auto;
+        margin-bottom: 1.5rem;
+    } 
+}
+
