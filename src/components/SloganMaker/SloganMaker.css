@@ -1,0 +1,164 @@
+.slogan-container{
+   background: #FAFAFA;
+   box-sizing: border-box;
+   padding: 0;
+   margin: 0;
+}
+
+.slogan-main-container{
+    width: 64%;
+    z-index: 0;
+    margin: auto;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 8px rgba(26, 24, 30, 0.06);
+    border-radius: 8px;
+    position: relative;
+    bottom:150px;
+    padding: 3rem 10rem;
+
+}
+
+.slogan-main-container__title{
+    font-family: 'Galano Grotesque Semibold';
+}
+.slogan-main-container__info{
+    color:  #4D4D4D;
+    font-family: 'Galano Grotesque Regular';
+    font-size: large;
+
+}
+#generate-slogan-form{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 0;
+}
+.input-lable{
+    margin-bottom: .5rem;
+    color: #4D4D4D;
+    font-family: 'Galano Grotesque Medium';
+    
+}
+#slogan-word{
+    width: 30%;
+    margin-bottom: 3rem;
+    border: 1px solid #D9D9D9;
+    box-sizing: border-box;
+    border-radius: 4px;
+    height: 48px;
+}
+
+#generate-slogan-btn{
+    background: #146EB4;
+    border-radius: 4px;
+    max-width: 20%;
+    font-family: 'Galano Grotesque Semibold';
+    border: 1px solid #146EB4;
+    font-size: medium;
+    color: #ffffff;
+    padding: 1rem;
+    cursor: pointer;
+}
+
+.slogans-metadata{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+.slogans-metadata-count{
+    color: #1A181E;
+    font-family: 'Galano Grotesque Medium';
+    font-size: large;
+
+
+}
+.download-all-slogans-btn{
+    color: #146EB4;
+    background: #FFFFFF;
+    border-radius: 5px;
+    border: 2px solid #146EB4;
+    cursor: pointer;
+    /* width: 15%; */
+    padding: 0rem 1.5rem;
+    font-family: 'Galano Grotesque Regular';
+}
+.download-all-slogans-btn:hover {
+    color: #ffffff;
+    background: #146EB4;
+    border: 2px solid #ffffff;
+}
+
+.all-slogans{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/*look following css*/
+.single-slogan{
+    width: 40%;
+    
+    cursor: pointer;
+    color: #1A181E;
+    font-family: 'Galano Grotesque Regular';
+    padding: 1.2rem;
+    background: #F2F2F2;
+    border-radius: 4px;
+    /* margin:1rem ;change this please */
+}
+
+.single-slogan:nth-child(odd){
+    margin: 1rem .5rem 1rem 0rem;
+}
+.single-slogan:nth-child(even){
+    margin: 1rem 0rem 1rem .5rem;
+}
+.single-slogan:hover{
+      box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.slogan-controller{
+    display: flex;
+    /* flex-direction: row-reverse; */
+    /* align-items: center; */
+    justify-content: center;
+    position: relative;
+}
+
+.number{
+    font-family: 'Galano Grotesque Medium';
+    font-size: medium;
+    color: #146EB4;
+    margin: 0 .5rem;
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    font-size: small;
+    padding: .1rem;
+    cursor: pointer;
+    text-align: center;
+}
+.number:hover{
+    border: 1px solid #146EB4;
+    border-radius: 50%;
+}
+.active{
+    border-radius: 50%;
+    background: #146EB4;
+    color: #ffffff;
+    border: 1px solid #146EB4;
+}
+.delimiter{
+    color: #146EB4;
+    margin: 0 .5rem;
+}
+.next-controller{
+    font-family: 'Galano Grotesque Regular';
+    color: #146EB4;
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+}
+
+.line{
+    border-top:90px thin #D9D9D9;
+}
+
