@@ -5,6 +5,9 @@ Front end assignment for Dukkan
 Hosted on netlify : https://dukaan-frontend-assignment.netlify.app/
 
 
+### Gif
+![Demo](./static/Demo.gif)
+
 **There are two methods for getting started with this repo.**
 
 
